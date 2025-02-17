@@ -4,7 +4,7 @@ set -e  # Exit immediately if a command exits with a non-zero status
 set -u  # Treat unset variables as an error
 set -o pipefail  # Prevent errors in a pipeline from being masked
 
-REPO_URL="https://github.com/Axenide/Ax-Shell"
+REPO_URL="https://github.com/5yndr0m/Ax-Shell-lite.git"
 INSTALL_DIR="$HOME/.config/Ax-Shell"
 PACKAGES=(
     fabric-cli-git
